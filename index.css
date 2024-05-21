@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 html {
     font-size: 62.5%
 }
@@ -8,6 +9,7 @@ html {
 
 body {
     margin: 0;
+    margin-top: 5%;
     font-size: 150%;
     background-color: #1F2937;
 }
@@ -19,7 +21,7 @@ h1 {
 }
 
 span {
-     color: #BE123C;
+    color: #BE123C;
 }
 
 p {
@@ -40,8 +42,8 @@ button {
     margin-top: 2%;
 }
 
-body > div {
-    
+body>div {
+
     display: flex;
     flex-direction: row;
     margin-left: 5%;
@@ -50,8 +52,9 @@ body > div {
     margin-right: 5%;
     justify-content: space-evenly;
     border-radius: 4px;
-    
+
 }
+
 #pass1-el {
     width: 49%;
     margin-right: 1%;
@@ -59,6 +62,7 @@ body > div {
     padding: 2.5%;
     border-radius: inherit;
 }
+
 #pass2-el {
     width: 49%;
     margin-left: 1%;
